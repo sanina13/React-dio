@@ -4,11 +4,11 @@ import Button from "./Button"
 
 const App = () => {
 
-	const soma = (n1, n2) => n1 + n2
+	const soma = (n1, n2) => alert(n1 + n2)
 	return(
 		<div className="App">
 			Hello World
-			{soma(2,3)}
+			<Button onClick ={() => soma(10,30)} nome = "Tiago Sanina"/>
 		</div>
 	)	
 }
